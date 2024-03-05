@@ -1,0 +1,117 @@
+.calendar {
+    
+    width: 100%; 
+    
+    border-radius: 5px;
+    padding: 5px;
+    font-family: sans-serif;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right:10px;
+  }
+  
+  .calendar-header button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .calendar-body {
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  .calendar-days-and-slots {
+    width: 100%; 
+    
+  }
+  
+  .calendar-day {
+    
+    width: 100%; 
+    text-align: center;
+    display: flex;
+    
+    
+
+    margin: 5px;
+    border: 1px solid #eee;
+    padding: 5px;
+  }
+  
+  .day-name {
+    font-weight: bold;
+  }
+  
+
+  .calendar-time-slots {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 10px;
+    width: calc(90% - 10px);
+    align-items: flex-end;
+  }
+  
+  .calendar-time-slot {
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-right: 10px;
+  }
+  
+  .calendar-time-slot input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .time-label {
+
+    font-size: 0.8rem;
+  }
+  
+ 
+  
+  .day-and-date {
+    flex-grow: 0;
+    width: 80px; 
+    height: 50px;
+    text-align: left; 
+    background-color: rgba(128, 128, 128, 0.1); 
+    padding: 10px;
+  }
+  
+  
+
+.timezone-select{
+    width: 98%;
+    margin: 1px;
+    margin-left: 10px;
+    margin-right:10px;
+    
+}
+
+.timezone-name > h4 {
+    
+    margin: 10px;
+  }
+  
+.jsonfetched-data {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid burlywood;
+}
+
+.togglebutton {
+  position: relative;
+  left: 48%;
+  
+}
